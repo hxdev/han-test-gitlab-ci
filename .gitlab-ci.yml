@@ -14,7 +14,7 @@ after_script:
   - echo "For example you might do some cleanup here"
   
 hello-world:
-  stage: chatops
+  stage: test
   only: [chat]
   script:
     - echo "Hello World."
